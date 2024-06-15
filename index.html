@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Kit</title>
+    <link rel="shortcut icon" href="./images/logo.svg">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div class="flex">
+        <nav class="site-navbar">
+            <a class="logo-wrapper" href="/">
+                <img src="./images/logo.svg" alt="Site Logo" width="32" height="32">
+                <strong class="logo-text">Dashboard Kit</strong>
+            </a>
+
+            <ul class="navbar-list">
+                <li class="navbar-item">
+                    <img src="./images/overview-icon.svg" alt="icon" width="16" height="16">
+                    <a class="navbar-link" href="#">Overview</a>
+                </li>
+                <li class="navbar-item">
+                    <img src="./images/tickets.svg" alt="icon" width="16" height="16">
+                    <a class="navbar-link" href="#">Tickets</a>
+                </li>
+                <li class="navbar-item">
+                    <img src="./images/ideas.svg" alt="icon" width="16" height="16">
+                    <a class="navbar-link" href="#">Ideas</a>
+                </li>
+                <li class="navbar-item">
+                    <img src="./images/contacts.svg" alt="icon" width="16" height="16">
+                    <a class="navbar-link" href="#">Contacts</a>
+                </li>
+                <li class="navbar-item">
+                    <img src="./images/agents.svg" alt="icon" width="16" height="16">
+                    <a class="navbar-link" href="#">Agents</a>
+                </li>
+                <li class="navbar-item">
+                    <img src="./images/articles.svg" alt="icon" width="16" height="16">
+                    <a class="navbar-link" href="#">Articles</a>
+                </li>       
+            </ul>
+            <div class="navbar-line"></div>
+
+            <ul class="navbar-list">
+                <li class="navbar-item">
+                    <img src="./images/settings.svg" alt="icon" width="16" height="16">
+                    <a class="navbar-link" href="#">Settings</a>
+                </li>
+                <li class="navbar-item">
+                    <img src="./images/subscription.svg" alt="icon" width="16" height="16">
+                    <a class="navbar-link" href="#">Subscription</a>
+                </li>    
+            </ul>
+        </nav>
+
+        <div class="overview-content">
+            <div class="search">
+                <h2 class="search-title">Overview</h2>
+                
+                <div class="search-icons">
+                    <img src="./images/search.svg" alt="icon" width="16" height="16">
+                    <img src="./images/ding-dong.svg" alt="icon" width="16" height="16">
+                </div>
+
+                <span class="search-line"></span>
+
+                <div class="search-content">
+                    <strong class="search-name">Jones Ferdinand</strong>
+                    <img src="./images/search-img.svg" alt="image" width="44" height="44">
+                </div>
+            </div>
+
+            <div class="four-card">
+                <div class="first-card">
+                    <h4 class="first-card-title">Unresolved</h4>
+                    <strong class="first-card-number">60</strong>
+                </div> 
+                <div class="first-card">
+                    <h4 class="first-card-title">Overdue</h4>
+                    <strong class="first-card-number">16</strong>
+                </div> 
+                <div class="first-card">
+                    <h4 class="first-card-title">Open</h4>
+                    <strong class="first-card-number">43</strong>
+                </div> 
+                <div class="first-card">
+                    <h4 class="first-card-title">On hold</h4>
+                    <strong class="first-card-number">64</strong>
+                </div> 
+            </div>
+
+            <div class="trends">
+                <div class="trends-date">
+                    <div class="trends-date-time">
+                    <h3 class="trends-date-title">Today's trends</h3>
+                    <p class="trends-date-text">as of 25 May 2019, 09:41 PM</p>
+                    </div> 
+                    <div class="trends-date-days">
+                        <div class="trends-date-color-1"></div>
+                        <strong class="trends-date-day">Today</strong>
+                        <div class="trends-date-color-2"></div>
+                        <strong class="trends-date-day">Yesterday</strong>
+                    </div>
+                </div>
+
+                <div class="trends-number">
+                    <div class="trends-number-1">
+                        <h4 class="trends-number-1-title">Resolved</h4>
+                        <strong class="trends-number-1-quantity">449</strong>
+                    </div>
+                    <div class="trends-line"></div>
+                    <div class="trends-number-1">
+                        <h4 class="trends-number-1-title">Received</h4>
+                        <strong class="trends-number-1-quantity">426</strong>
+                    </div>
+                    <div class="trends-line"></div>
+                    <div class="trends-number-1">
+                        <h4 class="trends-number-1-title">Average first response time</h4>
+                        <strong class="trends-number-1-quantity">33m</strong>
+                    </div>
+                    <div class="trends-line"></div>
+                    <div class="trends-number-1">
+                        <h4 class="trends-number-1-title">Average response time</h4>
+                        <strong class="trends-number-1-quantity">3h 8m</strong>
+                    </div>
+                    <div class="trends-line"></div>
+                    <div class="trends-number-1">
+                        <h4 class="trends-number-1-title">Resolution within SLA</h4>
+                        <strong class="trends-number-1-quantity">94%</strong>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="double-card">
+                <div class="tickets">
+                    <h3 class="tickets-title">Unresolved tickets</h3>
+                    <strong class="tickets-subtitle">Group: <span class="color-tickets">Support</span></strong>
+                    <strong class="view">View details</strong>
+
+                    <div class="request">
+                        <p class="request-text">Waiting on Feature Request</p>
+                        <strong class="request-number">4238</strong>
+                    </div>
+                    <div class="request">
+                        <p class="request-text">Awaiting Customer Response</p>
+                        <strong class="request-number">1005</strong>
+                    </div>
+                    <div class="request">
+                        <p class="request-text">Awaiting Developer Fix</p>
+                        <strong class="request-number">914</strong>
+                    </div>
+                    <div class="pending">
+                        <p class="pending-text">Pending</p>
+                        <strong class="pending-number">281</strong>
+                    </div>
+                </div>
+
+                <div class="tasks">
+                    <h3 class="task-title">Tasks</h3>
+                    <strong class="task-subtitle">Today</strong>
+                    <strong class="task-view">View all</strong>
+
+                    <div class="create">
+                        <p class="create-text">Create new task</p>
+                        <img src="./images/create-icon.svg" alt="plus" width="24" height="24">
+                    </div>
+                    <div class="finish">
+                        <img src="./images/circle.svg" alt="plus" width="20" height="20">
+                        <p class="finish-text">Finish ticket update</p>
+                        <span class="finish-color">Urgent</span>
+                    </div>
+                    <div class="example">
+                        <img src="./images/circle.svg" alt="plus" width="20" height="20">
+                        <p class="example-text">Create new ticket example</p>
+                        <span class="example-color">New</span>
+                    </div>
+                    <div class="update">
+                        <img src="./images/circle-checked.svg" alt="plus" width="20" height="20">
+                        <p class="update-text">Create new ticket example</p>
+                        <span class="update-color">New</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
